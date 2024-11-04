@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.textHover p {
+    display: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textHover:hover p{
+    display: block;
+}
+
+/*Mobile 1st 1 col */
+section{
+    width: 150px;
+    height: 150px;
+    margin-top: 3px;
+    background-color: black;
+    margin-left: 30%;
+}
+
+section:nth-child(2) {
+    background-color: aquamarine;
+}
+
+section:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+/*desktop 2-3 col */
+
+@media screen and (min-width: 600px){
+    main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    section{
+        width: 200px;
+        height: 200px;
+        flex-grow: 1;
+    }
+    section:nth-child(1){
+        width: 100vw;
+        height: 100px;
+    }
+}
