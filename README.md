@@ -1,3 +1,6 @@
+Pärmar & Poesi 
+
+Syftet med uppgiften är att ge den studerande möjlighet att visa färdigheter och kompetenser i att samarbeta kring kod för att utveckla webblösningar i HTML och CSS som är semantiska, responsiva och tillgängliga.
 Uppgift
 Bakgrund
 Ni är ett team webbutvecklare på en webbyrå som specialiserar sig på att skapa webbplatser åt småföretag. Byrån har nyligen fått i uppdrag att utveckla en webbplats åt en lokal bokhandel vid namn Pärmar & Poesi. 
